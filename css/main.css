@@ -57,3 +57,40 @@ nav .nav-right-section img{
 /* 
 Hasta aqui llega mi header
 */
+
+main{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-logo img{
+    width: 50rem;
+}
+
+main .main-input{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input-container{
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 1px solid #37393e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container input{
+    width: 49.5rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+}
