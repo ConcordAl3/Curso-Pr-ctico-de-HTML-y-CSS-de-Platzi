@@ -151,3 +151,36 @@ main .main-buttons button:hover{
 aca termina mi main.
 (empieza el footer)
 */
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: 0.1rem solid #e4e4e4;
+}
+
+footer ul {
+    margin: 1.0rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 1.0rem;
+    color: #5f6368;
+}
